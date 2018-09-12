@@ -1,0 +1,81 @@
+html, body, * {
+	box-sizing: border-box;
+}
+
+.App-container, .App-left, .App-intro-footer-div, .App-wrapper, #App-skills-div, .App-wrapper-proj {
+  display: flex;
+}
+
+.App-container {
+  width: 100%;
+}
+
+.App-left-div, .App-circle-div, .App-intro-div, .App-projects-div, .App-intro-footer-div {
+  padding-left: 5%;
+}
+
+.App-intro-footer-div, .App-wrapper, #App-skills-div, .App-wrapper-proj {
+  flex-wrap: wrap;
+}
+
+.App-left-div {
+  padding-top: 20px;
+  width: 30%;
+}
+
+.App-circle-div {
+  margin: 10%;
+  padding-top: 5%;
+}
+
+.App-circle img {
+  position: relative;
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+}
+
+.App-title {
+  font-size: 1.5em;
+  padding-left: 5%;
+}
+
+.App-intro-div {
+  width: 80%;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-right-div {
+  padding-top: 6%;
+  width: 70%;
+  padding-left: 5.5%;
+}
+
+.App-summary-div {
+  padding-left: 5%;
+  width: 70%;
+}
+
+#App-skills-div {
+  padding-left: 3.5%;
+  width: 75%;
+}
+
+ul {
+  list-style: none;
+}
+
+.App-wrapper-proj {
+  padding-left: 5.5%;
+  padding-bottom: 5%;
+}
+
+.App-projects-img {
+  width: 70%;
+  margin-left: 9.5%;
+  margin-bottom: 2.5%;
+  border-radius: 6px;
+}
