@@ -2,6 +2,16 @@ html, body, * {
 	box-sizing: border-box;
 }
 
+a {
+  font-weight: 900;
+  text-decoration: none;
+  color: orangered;
+}
+
+.App-caps {
+  color: rgb(203, 5, 203);
+}
+
 .App-container, .App-left, .App-intro-footer-div, .App-wrapper, #App-skills-div, .App-wrapper-proj {
   display: flex;
 }

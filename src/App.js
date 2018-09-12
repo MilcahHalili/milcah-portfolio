@@ -30,7 +30,7 @@ class App extends Component {
         <div className="App-right-div">
           <div className="App-wrapper">
             <div>
-              <p><strong>SUMMARY</strong></p>
+              <p><strong className="App-caps">SUMMARY</strong></p>
             </div>
             <div className="App-summary-div">
               <p>
@@ -40,12 +40,12 @@ class App extends Component {
           </div>
           <div className="App-wrapper">
             <div>
-              <p><strong>SKILLS</strong></p>
+              <p><strong className="App-caps">SKILLS</strong></p>
             </div>
             <div id="App-skills-div">
               <div className="App-skills-divs">
                 <ul>
-                  <li><strong>LANGUAGES</strong></li>
+                  <li><strong className="App-caps">LANGUAGES</strong></li>
                   <br />
                   <li>HTML</li>
                   <li>CSS</li>
@@ -55,7 +55,7 @@ class App extends Component {
               </div>
               <div className="App-skills-divs">
                 <ul>
-                  <li><strong>LIBRARIES</strong></li>
+                  <li><strong className="App-caps">LIBRARIES</strong></li>
                   <br />
                   <li>React</li>
                   <li>jQuery</li>
@@ -65,7 +65,7 @@ class App extends Component {
               </div>
               <div className="App-skills-divs">
                 <ul>
-                  <li><strong>DATABASES</strong></li>
+                  <li><strong className="App-caps">DATABASES</strong></li>
                   <br />
                   <li>MongoDB</li>
                   <li>PostgreSQL</li>
@@ -73,7 +73,7 @@ class App extends Component {
               </div>
               <div className="App-skills-divs">
                 <ul>
-                  <li><strong>FRAMEWORKS</strong></li>
+                  <li><strong className="App-caps">FRAMEWORKS</strong></li>
                   <br />
                   <li>Express</li>
                   <li>Ruby on Rails</li>
@@ -82,7 +82,7 @@ class App extends Component {
               </div>
               <div className="App-skills-divs">
                 <ul>
-                  <li><strong>TOOLS</strong></li>
+                  <li><strong className="App-caps">TOOLS</strong></li>
                   <br />
                   <li>AWS</li>
                   <li>Slack</li>
@@ -94,7 +94,7 @@ class App extends Component {
           </div>
           <div>
             <div className="App-wrapper">
-              <p><strong>Projects</strong></p>
+              <p><strong className="App-caps">PROJECTS</strong></p>
             </div>
             <div className="App-projects-div">
               <a href="https://flwr-app.herokuapp.com/">
@@ -103,7 +103,7 @@ class App extends Component {
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
                   <ul>
-                    <strong><li>TECH</li></strong>
+                    <strong><li className="App-caps">TECH</li></strong>
                     <br />
                     <li>HTML/CSS</li>
                     <li>JavaScript</li>
@@ -117,7 +117,7 @@ class App extends Component {
                 </div>
                 <div className="App-proj-links">
                   <ul>
-                    <strong><li>LINKS</li></strong>
+                    <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://github.com/MilcahHalili/flwr">GitHub</a></li>
                     <li><a href="https://flwr-app.herokuapp.com/">View flwr</a></li>
@@ -132,14 +132,14 @@ class App extends Component {
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
                   <ul>
-                    <strong><li>TECH</li></strong>
+                    <strong><li className="App-caps">TECH</li></strong>
                     <br />
                     <li>HTML/CSS</li>
                   </ul>
                 </div>
                 <div className="App-proj-links">
                   <ul>
-                    <strong><li>LINKS</li></strong>
+                    <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://trello.com/b/sAFjaCw4/stockpotimages">Trello</a></li>
                     <li><a href="https://www.stockpotimages.com/">View Stock Pot Images</a></li>
@@ -154,7 +154,7 @@ class App extends Component {
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
                   <ul>
-                    <strong><li>TECH</li></strong>
+                    <strong><li className="App-caps">TECH</li></strong>
                     <br />
                     <li>HTML/CSS</li>
                     <li>JavaScript</li>
@@ -162,7 +162,7 @@ class App extends Component {
                 </div>
                 <div className="App-proj-links">
                   <ul>
-                    <strong><li>LINKS</li></strong>
+                    <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://github.com/MilcahHalili/Simon">GitHub</a></li>
                     <li><a href="https://milcahhalili.github.io/Simon/">View Simon</a></li>
@@ -177,7 +177,7 @@ class App extends Component {
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
                   <ul>
-                    <strong><li>TECH</li></strong>
+                    <strong><li className="App-caps">TECH</li></strong>
                     <br />
                     <li>AWS</li>
                     <li>HTML/CSS</li>
@@ -188,7 +188,7 @@ class App extends Component {
                 </div>
                 <div className="App-proj-links">
                   <ul>
-                    <strong><li>LINKS</li></strong>
+                    <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://github.com/MilcahHalili/burst_book">GitHub</a></li>
                     <li><a href="https://burstbook.herokuapp.com/">View Burst Book</a></li>
@@ -203,7 +203,7 @@ class App extends Component {
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
                   <ul>
-                    <strong><li>TECH</li></strong>
+                    <strong><li className="App-caps">TECH</li></strong>
                     <br />
                     <li>AWS</li>
                     <li>HTML/CSS</li>
@@ -220,7 +220,7 @@ class App extends Component {
                 </div>
                 <div className="App-proj-links">
                   <ul>
-                    <strong><li>LINKS</li></strong>
+                    <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://github.com/MilcahHalili/game.it">GitHub</a></li>
                     <li><a href="https://game-it.herokuapp.com/">View game.it</a></li>
