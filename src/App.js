@@ -222,7 +222,7 @@ class App extends Component {
                   <ul>
                     <strong><li className="App-caps">LINKS</li></strong>
                     <br />
-                    <li><a href="https://github.com/MilcahHalili/game.it">GitHub</a></li>
+                    <li><a href="https://github.com/caitfriedlander/game.it">GitHub</a></li>
                     <li><a href="https://game-it.herokuapp.com/">View game.it</a></li>
                   </ul>
                 </div>
