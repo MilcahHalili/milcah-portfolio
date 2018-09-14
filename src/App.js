@@ -22,7 +22,7 @@ class App extends Component {
             </p>
           </div>
           <div className="App-intro-footer-div">
-            <a href="https://github.com/MilcahHalili">Github</a>&nbsp;&nbsp;
+            <a href="https://github.com/MilcahHalili">GitHub</a>&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/milcah-halili">LinkedIn</a>&nbsp;&nbsp;
             <a href="https://profiles.generalassemb.ly/profiles/milcah-halili">GA Profile</a>
           </div>
