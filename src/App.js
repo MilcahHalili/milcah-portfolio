@@ -146,7 +146,7 @@ class App extends Component {
                     <strong><li className="App-caps">LINKS</li></strong>
                     <br />
                     <li><a href="https://github.com/MilcahHalili/WebApp">GitHub</a></li>
-                    <li><a href="https://flwr-app.herokuapp.com/">View WeVote.US</a></li>
+                    <li><a href="https://wevote.us/ballot">View WeVote.US</a></li>
                   </ul>
                 </div>
               </div>
