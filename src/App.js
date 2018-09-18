@@ -126,6 +126,32 @@ class App extends Component {
               </div>
             </div>
             <div className="App-projects-div">
+              <a href="https://wevote.us/ballot">
+                <img alt="WeVote.US" className="App-projects-img" src="https://i.imgur.com/f7fOR0p.png" />
+              </a>
+              <div className="App-wrapper-proj">
+                <div className="App-tech-used">
+                  <ul>
+                    <strong><li className="App-caps">TECH</li></strong>
+                    <br />
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>React/Flux</li>
+                    <li>GitHub</li>
+                    <li>Zendesk</li>
+                  </ul>
+                </div>
+                <div className="App-proj-links">
+                  <ul>
+                    <strong><li className="App-caps">LINKS</li></strong>
+                    <br />
+                    <li><a href="https://github.com/MilcahHalili/WebApp">GitHub</a></li>
+                    <li><a href="https://flwr-app.herokuapp.com/">View WeVote.US</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="App-projects-div">
               <a href="https://www.stockpotimages.com/">
                 <img alt="Stock-Pot-Images-app" className="App-projects-img" src="https://i.imgur.com/RNdJZ97.png" />
               </a>
