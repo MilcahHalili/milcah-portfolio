@@ -59,7 +59,6 @@ class App extends Component {
                   <br />
                   <li>React</li>
                   <li>jQuery</li>
-                  <li>Socket.IO</li>
                   <li>Bootstrap</li>
                 </ul>
               </div>
