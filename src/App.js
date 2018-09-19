@@ -175,7 +175,7 @@ class App extends Component {
             </div>
             <div className="App-projects-div">
               <a href="https://milcahhalili.github.io/Simon/">
-                <img alt="Simon-app" className="App-projects-img" src="https://i.imgur.com/RKwwosn.png" />
+                <img alt="Simon-app" className="App-projects-img" src="https://i.imgur.com/rafNHY9.png" />
               </a>
               <div className="App-wrapper-proj">
                 <div className="App-tech-used">
