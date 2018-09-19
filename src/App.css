@@ -1,5 +1,7 @@
-html, body, * {
-	box-sizing: border-box;
+html,
+body,
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -12,7 +14,12 @@ a {
   color: rgb(203, 5, 203);
 }
 
-.App-container, .App-left, .App-intro-footer-div, .App-wrapper, #App-skills-div, .App-wrapper-proj {
+.App-container,
+.App-left,
+.App-intro-footer-div,
+.App-wrapper,
+#App-skills-div,
+.App-wrapper-proj {
   display: flex;
 }
 
@@ -20,11 +27,18 @@ a {
   width: 100%;
 }
 
-.App-left-div, .App-circle-div, .App-intro-div, .App-projects-div, .App-intro-footer-div {
+.App-left-div,
+.App-circle-div,
+.App-intro-div,
+.App-projects-div,
+.App-intro-footer-div {
   padding-left: 5%;
 }
 
-.App-intro-footer-div, .App-wrapper, #App-skills-div, .App-wrapper-proj {
+.App-intro-footer-div,
+.App-wrapper,
+#App-skills-div,
+.App-wrapper-proj {
   flex-wrap: wrap;
 }
 
@@ -62,6 +76,7 @@ a {
   padding-top: 6%;
   width: 70%;
   padding-left: 5.5%;
+  padding-right: 5.5%;
 }
 
 .App-summary-div {
@@ -88,4 +103,19 @@ ul {
   margin-left: 9.5%;
   margin-bottom: 2.5%;
   border-radius: 6px;
+}
+
+@media screen and (max-width: 700px) {
+  .App-container {
+    flex-wrap: wrap;
+  }
+  .App-left-div {
+    width: 100%;
+  }
+  .App-circle-div {
+    margin: 5%;
+  }
+  .App-right-div {
+    width: 100%;
+  }
 }
