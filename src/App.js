@@ -34,7 +34,10 @@ class App extends Component {
             </div>
             <div className="App-summary-div">
               <p>
-                I recently graduated from General Assembly's Web Development Immersive in Little Tokyo, Los Angeles. My background as a cannabis wellness advisor, caregiver of elders, dog walker, and freelance writer inform my work as a web developer. I believe that technology can help people be more happy, healthy, and connected to the ones they love.
+                I build websites that inspire engagement. I believe that technology can help people be more happy, healthy, and connected to the ones they love.
+              </p>
+              <p>
+                I recently graduated from General Assembly's Web Development Immersive in Little Tokyo, Los Angeles. My background as a cannabis wellness advisor, caregiver of elders, dog walker, filmmaker, freelance performer, and freelance writer inform my work as a web developer.
               </p>
             </div>
           </div>
