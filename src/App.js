@@ -54,6 +54,7 @@ class App extends Component {
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>Ruby</li>
+                  <li>PHP</li>
                 </ul>
               </div>
               <div className="App-skills-divs">
