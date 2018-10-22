@@ -112,6 +112,7 @@ class App extends Component {
                 <tr>
                   <td>
                     <div className="App-projects-div">
+                      <h4>WeVote.US</h4>
                       <a href="https://wevote.us/ballot">
                         <img alt="WeVote.US" className="App-projects-img" src="https://i.imgur.com/f7fOR0p.png" />
                       </a>
@@ -119,6 +120,7 @@ class App extends Component {
                   </td>
                   <td>
                     <div className="App-projects-div">
+                      <h4>game.it</h4>
                       <a href="https://game-it.herokuapp.com/">
                         <img alt="game.it-app" className="App-projects-img" src="https://i.imgur.com/0QPgqk5.png" />
                       </a>
@@ -129,6 +131,7 @@ class App extends Component {
                 <tr>
                   <td>
                     <div className="App-projects-div">
+                    <h4>Stock Pot Images</h4>
                       <a href="https://www.stockpotimages.com/">
                         <img alt="Stock-Pot-Images-app" className="App-projects-img" src="https://i.imgur.com/RNdJZ97.png" />
                       </a>
@@ -136,6 +139,7 @@ class App extends Component {
                   </td>
                   <td>
                     <div className="App-projects-div">
+                      <h4>Simon</h4>
                       <a href="https://milcahhalili.github.io/Simon/">
                         <img alt="Simon-app" className="App-projects-img" src="https://i.imgur.com/rafNHY9.png" />
                       </a>
@@ -145,6 +149,7 @@ class App extends Component {
                 <tr>
                   <td>
                     <div className="App-projects-div">
+                      <h4>Burst Book</h4>
                       <a href="https://burstbook.herokuapp.com/">
                         <img alt="Burst-Book-app" className="App-projects-img" src="https://i.imgur.com/lHMBBQa.png" />
                       </a>
@@ -152,6 +157,7 @@ class App extends Component {
                   </td>
                   <td>
                     <div className="App-projects-div">
+                      <h4>flwr</h4>
                       <a href="https://flwr-app.herokuapp.com/">
                         <img alt="flwr-app" className="App-projects-img" src="https://i.imgur.com/vPLWmio.png" />
                       </a>
