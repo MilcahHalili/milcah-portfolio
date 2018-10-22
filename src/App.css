@@ -27,20 +27,18 @@ h4 {
 
 .App-container {
   display: flex;
-}
-
-.App-container {
   width: 70%;
 }
 
 .App-circle-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10%;
 }
 
 .App-circle img {
-  position: relative;
   border-radius: 50%;
-  display: flex;
   margin: auto;
 }
 
@@ -74,11 +72,18 @@ td, th {
 }
 
 @media screen and (max-width: 700px) {
-  .App-container {
-    flex-wrap: wrap;
+  body {
+    font-size: 18px;
   }
-  .App-circle-div {
-    margin: 5%;
+  .App-circle img {
+    margin-top: 30%;
+  }
+  .App-container {
+    margin-left: .5px;
+  }
+  .skills-div {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
@@ -92,7 +97,7 @@ td, th {
 /* Navbar links */
 #navbar a, span {
   float: left;
-  display: block;
+  display: flex;
   color: #CB81C1;
   text-align: center;
   padding: 14px;
