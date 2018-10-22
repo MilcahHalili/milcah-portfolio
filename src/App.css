@@ -74,16 +74,13 @@ td, th {
 @media screen and (max-width: 700px) {
   body {
     font-size: 18px;
+    width: 100%;
   }
   .App-circle img {
     margin-top: 30%;
   }
   .App-container {
     margin-left: .5px;
-  }
-  .skills-div {
-    margin-left: 50px;
-    margin-right: 50px;
   }
 }
 
@@ -92,6 +89,7 @@ td, th {
   overflow: hidden;
   background-color: whitesmoke;
   z-index: 500;
+  width: 100%;
 }
 
 /* Navbar links */

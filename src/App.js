@@ -56,7 +56,7 @@ class App extends Component {
                 </p>
               </div>
             </div>
-            <div className="skills-div">
+            <div>
               <h3><strong className="App-caps"><a id="skills">SKILLS</a></strong></h3>
               <table>
                 <tbody>
