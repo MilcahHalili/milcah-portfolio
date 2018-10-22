@@ -7,101 +7,65 @@ body,
 a {
   font-weight: 900;
   text-decoration: none;
-  color: orangered;
+  color: #CB81C1;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .App-caps {
   color: rgb(203, 5, 203);
+  text-align: center;
 }
 
-.App-container,
-.App-left,
-.App-intro-footer-div,
-.App-wrapper,
-#App-skills-div,
-.App-wrapper-proj {
+.App-container {
   display: flex;
 }
 
 .App-container {
-  width: 100%;
-}
-
-.App-left-div,
-.App-circle-div,
-.App-intro-div,
-.App-projects-div,
-.App-intro-footer-div {
-  padding-left: 5%;
-}
-
-.App-intro-footer-div,
-.App-wrapper,
-#App-skills-div,
-.App-wrapper-proj {
-  flex-wrap: wrap;
-}
-
-.App-left-div {
-  padding-top: 20px;
-  width: 30%;
+  width: 70%;
 }
 
 .App-circle-div {
   margin: 10%;
-  padding-top: 5%;
 }
 
 .App-circle img {
   position: relative;
   border-radius: 50%;
-  width: 70%;
-  height: auto;
+  display: flex;
+  margin: auto;
 }
 
-.App-title {
-  font-size: 1.5em;
-  padding-left: 5%;
+div {
+  margin: auto;
 }
 
-.App-intro-div {
-  width: 80%;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.App-right-div {
-  padding-top: 6%;
-  width: 70%;
-  padding-left: 5.5%;
-  padding-right: 5.5%;
-}
-
-.App-summary-div {
-  padding-left: 5%;
+.summary-div {
   width: 70%;
 }
 
-#App-skills-div {
-  padding-left: 3.5%;
-  width: 75%;
+.contact-div {
+  margin-bottom: 5%;
+  text-align: center;
 }
 
-ul {
-  list-style: none;
+table {
+  margin: auto;
 }
 
-.App-wrapper-proj {
-  padding-left: 5.5%;
-  padding-bottom: 5%;
+td, th {
+  text-align: left;
+  padding: 10px;
 }
 
 .App-projects-img {
   width: 70%;
-  margin-left: 9.5%;
-  margin-bottom: 2.5%;
+  display: flex;
+  margin: auto;
   border-radius: 6px;
 }
 
@@ -109,13 +73,43 @@ ul {
   .App-container {
     flex-wrap: wrap;
   }
-  .App-left-div {
-    width: 100%;
-  }
   .App-circle-div {
     margin: 5%;
   }
-  .App-right-div {
-    width: 100%;
-  }
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: lightgrey;
+  z-index: 500;
+}
+
+/* Navbar links */
+#navbar a, span {
+  float: left;
+  display: block;
+  color: #CB81C1;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 900;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
