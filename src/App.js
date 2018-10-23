@@ -43,7 +43,7 @@ class App extends Component {
               </div>
             </header>
             <div>
-              <h3><strong className="App-caps"><a id="summary">SUMMARY</a></strong></h3>
+              <h3><a id="summary">SUMMARY</a></h3>
               <div className="summary-div">
                 <p>
                   Hi, my name is Milcah. I'm a full stack web developer building with <strong>M</strong>ongoDB, <strong>E</strong>xpress, <strong>R</strong>eactJS, <strong>N</strong>ode.js stack and more.
@@ -57,7 +57,7 @@ class App extends Component {
               </div>
             </div>
             <div>
-              <h3><strong className="App-caps"><a id="skills">SKILLS</a></strong></h3>
+              <h3><a id="skills">SKILLS</a></h3>
               <table>
                 <tbody>
                   <tr>
@@ -106,7 +106,7 @@ class App extends Component {
               </table>
             </div>
             <div>
-              <h3><strong className="App-caps"><a id="projects">PROJECTS</a></strong></h3>
+              <h3><a id="projects">PROJECTS</a></h3>
 
               <table>
                 <tbody>
