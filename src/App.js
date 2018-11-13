@@ -10,12 +10,15 @@ window.onscroll = function () {
 function stickyNav() {
   // Get the navbar
   var navbar = document.getElementById("navbar");
+  var headshot = document.getElementById("App-circle");
   // Get the offset position of the navbar
   var sticky = navbar.offsetTop;
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
+    headshot.classList.add("padding-top");
   } else {
     navbar.classList.remove("sticky");
+    headshot.classList.add("padding-top");
   }
 }
 
@@ -37,7 +40,7 @@ class App extends Component {
           <div>
             <header>
               <div className="App-circle-div">
-                <div className="App-circle">
+                <div id="App-circle">
                   <img alt="Milcah-Halili-headshot" src="https://i.imgur.com/dSsQgZF.png" />
                 </div>
               </div>
@@ -66,7 +69,6 @@ class App extends Component {
                     <th>Databases</th>
                     <th>Frameworks</th>
                     <th>Tools</th>
-                    <th>CMS</th>
                   </tr>
                   <tr>
                     <td>HTML</td>
@@ -74,7 +76,6 @@ class App extends Component {
                     <td>MongoDB</td>
                     <td>Express</td>
                     <td>AWS</td>
-                    <td>WordPress</td>
                   </tr>
                   <tr>
                     <td>CSS</td>
@@ -82,7 +83,6 @@ class App extends Component {
                     <td>PostgreSQL</td>
                     <td>Ruby on Rails</td>
                     <td>Slack</td>
-                    <td>Squarespace</td>
                   </tr>
                   <tr>
                     <td>JavaScript</td>
@@ -90,7 +90,6 @@ class App extends Component {
                     <td></td>
                     <td>Socket.IO</td>
                     <td>GitHub</td>
-                    <td>Tumblr</td>
                   </tr>
                   <tr>
                     <td>Ruby</td>
@@ -175,7 +174,9 @@ class App extends Component {
             </div>
             <div className="contact-div">
               <h3><strong className="App-caps"><a id="contact">CONTACT</a></strong></h3>
-              <p>halilicenteno@gmail.com</p>
+              <p><a href="mailto:halilicenteno@gmail.com?subject=Let's Work Together">halilicenteno@gmail.com</a></p>
+              <a href="https://github.com/MilcahHalili/"><img id="github-logo" src="https://i.imgur.com/F4OeYPv.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.linkedin.com/in/milcah-halili/"><img src="https://i.imgur.com/kmInX59.png"/></a>
               <p>(510) 944-3701</p>
             </div>
           </div>

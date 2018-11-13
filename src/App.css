@@ -39,7 +39,7 @@ h4 {
   margin: 10%;
 }
 
-.App-circle img {
+#App-circle img {
   border-radius: 50%;
   margin: auto;
 }
@@ -78,12 +78,16 @@ td, th {
   body {
     font-size: 18px;
   }
-  .App-circle img {
-    margin-top: 30%;
+  #App-circle img {
+    /* margin-top: 30%; */
   }
 }
 
 @media screen and (max-width: 400px) {
+  .summary-div {
+    width: 50%;
+  }
+  
 }
 
 /* Style the navbar */
@@ -100,7 +104,7 @@ td, th {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-size: large;
+  font-size: 16px;
   font-weight: 900;
 }
 
@@ -108,5 +112,8 @@ td, th {
 .sticky {
   position: fixed;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1);
-  width: 100%;
+}
+
+.padding-top {
+  padding-top: 25%;
 }
