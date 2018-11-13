@@ -29,7 +29,7 @@ h4 {
 .App-container {
   display: flex;
   max-width: 70%;
-  padding: 0 20px;
+  justify-content: center;
 }
 
 .App-circle-div {
@@ -81,13 +81,9 @@ td, th {
   .App-circle img {
     margin-top: 30%;
   }
-  .App-container {
-    margin-left: .5px;
-  }
 }
 
 @media screen and (max-width: 400px) {
-  
 }
 
 /* Style the navbar */

@@ -22,7 +22,7 @@ function stickyNav() {
 class App extends Component {
   render() {
     return (
-      <div>
+      <div class="body">
         <div id="navbar">
           <span>Milcah Halili Centeno</span>
           <a href="#summary">Summary</a>
