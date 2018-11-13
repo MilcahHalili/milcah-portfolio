@@ -60,6 +60,7 @@ div {
 table {
   margin: auto;
   display: flex;
+  justify-content: center;
 }
 
 td, th {
@@ -95,6 +96,7 @@ td, th {
   overflow: hidden;
   background-color: whitesmoke;
   z-index: 500;
+  width: 100%;
 }
 
 /* Navbar links */
@@ -112,8 +114,9 @@ td, th {
 .sticky {
   position: fixed;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .padding-top {
-  padding-top: 25%;
+  padding-top: 10%;
 }
