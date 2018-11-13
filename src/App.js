@@ -66,6 +66,7 @@ class App extends Component {
                     <th>Databases</th>
                     <th>Frameworks</th>
                     <th>Tools</th>
+                    <th>CMS</th>
                   </tr>
                   <tr>
                     <td>HTML</td>
@@ -73,6 +74,7 @@ class App extends Component {
                     <td>MongoDB</td>
                     <td>Express</td>
                     <td>AWS</td>
+                    <td>WordPress</td>
                   </tr>
                   <tr>
                     <td>CSS</td>
@@ -80,6 +82,7 @@ class App extends Component {
                     <td>PostgreSQL</td>
                     <td>Ruby on Rails</td>
                     <td>Slack</td>
+                    <td>Squarespace</td>
                   </tr>
                   <tr>
                     <td>JavaScript</td>
@@ -87,6 +90,7 @@ class App extends Component {
                     <td></td>
                     <td>Socket.IO</td>
                     <td>GitHub</td>
+                    <td>Tumblr</td>
                   </tr>
                   <tr>
                     <td>Ruby</td>
